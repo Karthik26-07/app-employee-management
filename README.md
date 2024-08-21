@@ -20,8 +20,8 @@ Before running the project, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Karthik26-07/app-employee-management.git
+cd app-employee-management
 ```
 
 ### 2.Install Dependencies
@@ -40,11 +40,6 @@ cd <repository-folder>
   cd employee-server
   npm install
   ```
-
-
-### Notes:
-- Replace `<repository-url>` and `<repository-folder>` with your actual repository URL and folder name.
-- Ensure your MySQL database is running and accessible with the credentials you've provided.
 
 
 ### 3. Configure MySQL Database
