@@ -1,4 +1,4 @@
-# Fullstack Project with React and Node.js
+# Fullstack Employee management Project with React and Node.js
 
 This project is a fullstack application with a React frontend (using Vite) and a Node.js backend server. The project is structured with separate folders for the client and server.
 
@@ -25,7 +25,7 @@ cd app-employee-management
 ```
 
 ### 2.Install Dependencies
-  # a. Install client Dependencies
+  ## a. Install client Dependencies
   Navigate to the `employee-client` folder and install the dependencies:
 
   ```bash
@@ -57,7 +57,7 @@ cd app-employee-management
 ```
 
 ### 4. Running the Project
-  # a. Start the Backend Server
+  ## a. Start the Backend Server
   In a new terminal, navigate to the `employee-server` folder and start the React frontend
   To start the Node.js backend server, run:
   ```bash
@@ -65,7 +65,7 @@ cd app-employee-management
   npm start
   ```
 
-  # a. Start the Frontend
+  ## b. Start the Frontend
   In a new terminal, navigate to the `employee-client` folder and start the React frontend
   ```bash
   cd employee-client
