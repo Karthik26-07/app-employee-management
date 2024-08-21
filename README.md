@@ -6,7 +6,7 @@ This project is a fullstack application with a React frontend (using Vite) and a
 
 Before running the project, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [Node.js](https://nodejs.org/) (version 20)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
 ## Project Structure
@@ -25,17 +25,18 @@ cd app-employee-management
 ```
 
 ### 2.Install Dependencies
-  ## a. Install client Dependencies
-  Navigate to the `employee-client` folder and install the dependencies:
 
+  a. Install client Dependencies
+
+  Navigate to the `employee-client` folder and install the dependencies:
   ```bash
   cd employee-client
   npm install
   ```
 
-  # b. Install Server  Dependencies
+  b. Install Server  Dependencies
+ 
   Navigate to the `employee-server` folder and install the dependencies:
-
   ```bash
   cd employee-server
   npm install
@@ -57,7 +58,9 @@ cd app-employee-management
 ```
 
 ### 4. Running the Project
-  ## a. Start the Backend Server
+  
+  a. Start the Backend Server
+ 
   In a new terminal, navigate to the `employee-server` folder and start the React frontend
   To start the Node.js backend server, run:
   ```bash
@@ -65,7 +68,8 @@ cd app-employee-management
   npm start
   ```
 
-  ## b. Start the Frontend
+  b. Start the Frontend
+
   In a new terminal, navigate to the `employee-client` folder and start the React frontend
   ```bash
   cd employee-client
