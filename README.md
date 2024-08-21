@@ -58,14 +58,15 @@ cd app-employee-management
 
 ### 4. Running the Project
   # a. Start the Backend Server
-    To start the Node.js backend server, run:
+  In a new terminal, navigate to the `employee-server` folder and start the React frontend
+  To start the Node.js backend server, run:
   ```bash
   cd employee-server
   npm start
   ```
 
   # a. Start the Frontend
-     In a new terminal, navigate to the `employee-client` folder and start the React frontend
+  In a new terminal, navigate to the `employee-client` folder and start the React frontend
   ```bash
   cd employee-client
   npm run dev
