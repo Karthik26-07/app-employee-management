@@ -1,0 +1,1 @@
+INSERT INTO users (user_type, NAME, contact, email, address, PASSWORD, created_at,is_active) VALUES ('ADMIN','admin','1234567890','admin@example.com','admin address','$2a$10$YHtZ/2Uy.8OqWLwHhHYOqe9Y0J.38R9IrU4Hfn8Snnq2z.JAdbAmy', NOW(),TRUE)
