@@ -24,18 +24,55 @@ git clone <repository-url>
 cd <repository-folder>
 ```
 
-### To install dependency 
-```bash
-npm install
+### 2.Install Dependencies
+  # a. Install client Dependencies
+  Navigate to the `employee-client` folder and install the dependencies:
+
+  ```bash
+  cd employee-client
+  npm install
+  ```
+
+  # b. Install Server  Dependencies
+  Navigate to the `employee-server` folder and install the dependencies:
+
+  ```bash
+  cd employee-server
+  npm install
+  ```
+
+
+### Notes:
+- Replace `<repository-url>` and `<repository-folder>` with your actual repository URL and folder name.
+- Ensure your MySQL database is running and accessible with the credentials you've provided.
+
+
+### 3. Configure MySQL Database
+
+  Update the database configuration in your `employee-server` folder. 
+  Ensure that the MySQL credentials and database name are set correctly in your `utils/env-helper`
+
+  ```bash
+       DATABASE: {
+        name: 'database',
+        password: 'password',
+        host: 'host',
+        user: 'user'
+       }
 ```
 
-### to start react app
-```bash
-npm run dev
-```
-Config the required credentials in env-helper file to run server
+### 4. Running the Project
+  # a. Start the Backend Server
+    To start the Node.js backend server, run:
+  ```bash
+  cd employee-server
+  npm start
+  ```
 
-### to start server
-```bash
-npm start
-```
+  # a. Start the Frontend
+     In a new terminal, navigate to the `employee-client` folder and start the React frontend
+  ```bash
+  cd employee-client
+  npm run dev
+  ```
+
